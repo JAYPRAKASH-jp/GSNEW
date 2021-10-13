@@ -76,7 +76,7 @@
             
         </div>
         <div class="c_image">
-            <img width="100%" height="100%" src="" alt=""/> 
+            <img id="newsimg" width="100%" height="100%" src="" alt=""/> 
         </div>
         <div class='news_sum'>
             <span>Company News</span>
@@ -136,7 +136,7 @@
     });
 
     $("#img_url").click(function(){
-        $('img').attr("src", $('#getimgurl').val());
+        $('#newsimg').attr("src", $('#getimgurl').val());
     });
 
 </script>
